@@ -6,9 +6,9 @@ os.makedirs("data", exist_ok=True)
 
 # Create a sample DataFrame
 df = pd.DataFrame({
-    "Name": ["Alice", "Bob", "Charlie","David"],
-    "Age": [25, 30, 35,20],
-    "City": ["New York", "Los Angeles", "Chicago","Washington DC"]
+    "Name": ["Alice", "Bob", "Charlie","David","Eve","Frank"],
+    "Age": [25, 30, 35,20,22,28],
+    "City": ["New York", "Los Angeles", "Chicago","Washington DC","New Jersey","Houston"]
 })
 
 # Save the DataFrame to a CSV file in the data directory
